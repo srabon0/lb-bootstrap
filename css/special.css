@@ -1,0 +1,38 @@
+
+.course-details{
+    margin: 5px;
+}
+.course-details h2{
+    font-size: 20px;
+}
+ 
+.course-trainer {
+ text-decoration: none;
+ color: #ED6B4F;
+
+}
+.course-info{
+   display: grid;
+    align-content: space-between;
+    grid-template-columns: 2fr 1fr;
+}
+.rating .filled{
+    color:#FFC014;
+    font-size: 14px;
+}
+.rating .half-filled{
+    color:#AEAEAE;
+    font-size: 14px;
+}
+.rating span.val {
+  color:#A2A2A2;
+  font-size: 14px;
+  margin-left: 15px;
+
+}
+.duration-red{
+    color:#FF4A60;
+    background-color:#FFE4E8
+    ;
+    border-radius: 15px;
+}
